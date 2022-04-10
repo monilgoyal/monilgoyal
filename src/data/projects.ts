@@ -1,0 +1,97 @@
+export const projects_data = [{
+    "title": "Portfolio Website",
+    "desc": "",
+    "description": "Portfolio App",
+    "tech": "Next.js, React DOM, Redux, TailwindCSS, TypeScript ",
+    "videoUrl": "",
+    "blogUrl": "",
+    "liveUrl": "https://monilgoyal.com",
+    "githubUrl": "https://github.com/monilgoyal/portfolio",
+    "thumbUrl": "",
+    "date": "Apr 2022"
+},
+{
+    "title": "Kubernetes Chat Bot",
+    "desc": "Developed interactive web chat app supported with natural language processing that works on 15+ operations of three K8s resources - Namespace, Pod, Deployment.",
+    "description": "Chat Bot to interact with Kubernetes Resources",
+    "tech": "NLP, Kubernetes, Python API, Flask, Html & CSS, JavaScript/ JQuery, Ajax",
+    "videoUrl": "https://cutt.ly/kube-chatbot",
+    "blogUrl": "",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/monilgoyal/Gmenu/tree/kubernetes",
+    "thumbUrl": "",
+    "date": "Aug 2021"
+},
+{
+    "title": "Docker Web App",
+    "desc": "Built Docker Web App using Flask Framework and REST APIs that has seamless integration of 10+ features.",
+    "description": "Features Included - create, delete, start, stop, commit, remove, inspect, rename containers and pull, delete, inspect",
+    "tech": "Flask, Python, Html, CSS, Javascript, Api, Docker CLI",
+    "videoUrl": "https://cutt.ly/docker-webapp",
+    "blogUrl": "",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/monilgoyal/Gmenu",
+    "thumbUrl": "",
+    "date": "Jul 2021"
+},
+{
+    "title": "Vahan Checker Application",
+    "desc": "Implemented ANPR on Web App that will process the car image to extract registration number from license plate of car and fetch the details of owner and car with help of regcheck API.",
+    "description": "",
+    "tech": "Flask, Easyocr, API integration",
+    "videoUrl": "https://cutt.ly/vahan-checker",
+    "blogUrl": "",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/monilgoyal/vahan-checker",
+    "thumbUrl": "",
+    "date": "Aug 2021"
+},
+{
+    "title": "Live Streaming Video Chat App",
+    "desc": "Programmed live streaming video chat app using socket programming.\nLive video assistant.",
+    "description": "",
+    "tech": "Python, OpenCV, Socket Programming",
+    "videoUrl": "https://cutt.ly/livestreaming-vc",
+    "blogUrl": "",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/monilgoyal/live-streaming-opencv",
+    "thumbUrl": "",
+    "date": "Jun 2021"
+},
+{
+    "title": "Multi-label Face Recognizer",
+    "desc": "Trained multi-label face recognizer model using Local Binary Pattern Histogram(LBPH) algorithm having more than 85% accuracy and launch infrastructure using terraform on successful detection of user.",
+    "description": "",
+    "tech": "Terraform, LBPH algorithm, OpenCV",
+    "videoUrl": "https://cutt.ly/face-recognizer",
+    "blogUrl": "",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/monilgoyal/multi_label_face_recognizer",
+    "thumbUrl": "",
+    "date": "Jun 2021"
+},
+{
+    "title": "Automating LVM Partition",
+    "desc": "Automated LVM partition using python script in Linux system. This app seamlessly retrieves all the valid resources and operations to perform on them.",
+    "description": "",
+    "tech": "Python, LVM partition, Linux Fundamentals",
+    "videoUrl": "https://cutt.ly/lvm-partition",
+    "blogUrl": "",
+    "liveUrl": "",
+    "githubUrl": "https://github.com/monilgoyal/lvm_python_automation",
+    "thumbUrl": "",
+    "date": "Apr 2021"
+},
+{
+    "title": "Python Chat App",
+    "desc": "Created Python Chat App that has two-way interactive communication session between 2 users.\nProtocol Used - UDP",
+    "description": "",
+    "tech": "Multi-Threading, Socket Programming",
+    "videoUrl": "",
+    "blogUrl": "https://monilgoyal.medium.com/chat-program-socket-programming-b6d121dd19aa",
+    "liveUrl": "",
+    "githubUrl": "",
+    "thumbUrl": "",
+    "date": "Dec 2020"
+}
+]
