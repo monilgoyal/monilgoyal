@@ -1,7 +1,8 @@
 import Link from 'next/link';
-import React from 'react'
+import React, { useEffect } from 'react'
 import { FiMail } from 'react-icons/fi';
 import Social from '../social';
+
 function Footer() {
     return (
         <footer className="text-gray-500 dark:text-gray-400 bg-transparent body-font ">
@@ -10,8 +11,8 @@ function Footer() {
                     <div className="flex md:flex-nowrap flex-wrap justify-center items-end md:justify-start ">
                         <div className="relative sm:w-64 w-80 text-center md:text-left md:mt-0 mt-6">
                             <FiMail className='inline mr-2 text-lg' />
-                            <a href="mailto:monilgoyal10@gmail.com" className='mx-auto font-medium'>
-                                contact@monilgoyal.com
+                            <a href="mailto:contact@monilgoyal.me" className='mx-auto font-medium'>
+                                contact@monilgoyal.me
                             </a>
                         </div>
                     </div>

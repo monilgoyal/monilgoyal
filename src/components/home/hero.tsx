@@ -26,14 +26,14 @@ function Hero() {
                         <Social />
                     </div>
                     <div>
-                        <Link href='resume.pdf' passHref>
+                        <Link href='/resume.pdf' passHref>
                             <button className="inline-flex text-white bg-indigo-500 border-2 border-indigo-500 py-2 px-6 focus:outline-none  hover:bg-indigo-600 hover:border-indigo-600 rounded text-lg ">Download CV</button>
                         </Link>
                         <button className="ml-4 inline-flex dark:text-indigo-400 text-indigo-600  border-2 border-indigo-500 py-2 px-6 focus:outline-none hover:bg-indigo-600 dark:hover:text-white hover:text-white rounded text-lg" onClick={toggleContactForm}>Contact Me</button>
                     </div>
                 </div>
                 <div className='w-72 h-72 lg:w-96 lg:h-96 border-2 rounded-full border-gray-200'>
-                    <Image className='rounded-full inline-block ' src='/monil.png' width={240} height={240} objectFit='cover' layout='responsive' alt='monil goyal'></Image>
+                    <Image className='rounded-full inline-block ' src='/monil.png' width={240} height={240} objectFit='cover' layout='responsive' alt='monil goyal' priority={true}></Image>
                 </div>
             </div>
         </section>

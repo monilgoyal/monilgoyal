@@ -2,7 +2,8 @@ import React from 'react'
 import Marquee from "react-fast-marquee";
 import * as skillsets from '../../data/skills'
 import Image from 'next/image';
-import { BsFillArrowRightCircleFill } from 'react-icons/bs';
+import { ViewAllButton } from '../button'
+import Link from 'next/link';
 
 const Skills = () => {
     return (
@@ -11,7 +12,7 @@ const Skills = () => {
                 SKILLS
             </div>
             <Marquee
-                className='mt-28 md:mt-32'
+                className='mt-[10vh]'
                 gradient={false}
                 speed={100}
                 pauseOnHover={true}
@@ -35,7 +36,13 @@ const Skills = () => {
                 }
 
             </Marquee>
-            <div className='text-center dark:text-white text-indigo-500 self-center mt-24 md:mt-28 '><BsFillArrowRightCircleFill className='text-4xl' /></div>
+            <Link href="/about/#skills" passHref>
+                <div className="mt-[10vh] self-center">
+                    <ViewAllButton />
+                </div>
+            </Link>
+
+            {/* <div className='text-center dark:text-white text-indigo-500 self-center mt-24 md:mt-28 '><BsFillArrowRightCircleFill className='text-4xl' /></div> */}
         </div>
     )
 }

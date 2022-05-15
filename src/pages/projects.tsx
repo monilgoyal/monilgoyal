@@ -21,15 +21,16 @@ function Projects() {
                     <div className="flex flex-wrap">
                         {projects_data.map((proj) => (
 
-                            <div className="p-4 xl:w-1/3 lg:w-1/2 hover:scale-105 transition-transform">
+                            <div className="p-4 xl:w-1/3 lg:w-1/2 hover:scale-105 transition-transform" key={proj.id}>
                                 <div className="h-full dark:bg-gray-800 bg-opacity-40 bg-indigo-100  px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
                                     <h2 className="tracking-widest text-xs title-font font-medium text-gray-700 dark:text-gray-500 mb-1">{proj.date}</h2>
                                     <h1 className="title-font sm:text-2xl text-xl font-medium text-indigo-500 dark:text-white mb-3">{proj.title}</h1>
                                     <p className="leading-relaxed mb-3 text-gray-900 dark:text-gray-400 ">{proj.desc}</p>
                                     <div className="flex flex-wrap justify-center">
                                         {
-                                            proj.tech.split(",").map((techno) => (
-                                                <span className="rounded-full dark:bg-gray-600 bg-gray-400 text-white dark:text-gray-300 dark:opacity-70 dark:bg-opacity-50 px-2 py-1 mx-1 my-1">{techno}</span>
+                                            proj.tech.split(",").map((techno, index) => (
+                                                <span className="rounded-full dark:bg-gray-600 bg-gray-400 text-white dark:text-gray-300 dark:opacity-70 dark:bg-opacity-50 px-2 py-1 mx-1 my-1"
+                                                    key={index}>{techno}</span>
                                             ))
                                         }
                                     </div>

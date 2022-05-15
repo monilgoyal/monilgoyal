@@ -8,7 +8,9 @@ module.exports = {
         extend: {
             animation: {
                 typeWriter: "typeWriter 3s steps(12) infinite,borderBlink .3s steps(24) infinite",
-                changeText: "changeText 9s infinite"
+                changeText: "changeText 9s infinite",
+                aosRtoL: "aosRtoL 1s forwards ease-out",
+                aosLtoR: "aosLtoR 1s forwards ease-out"
             },
             keyframes: {
                 typeWriter: {
@@ -23,9 +25,36 @@ module.exports = {
                     "0%,33%": { content: "attr(data-text-1)" },
                     "33.33%,66.33%": { content: "attr(data-text-2)" },
                     "66.66%, 99.99%": { content: "attr(data-text-3)" }
+                },
+                aosRtoL: {
+                    "0%": {
+                        transform: "translateX(-100%)",
+                        opacity: 0
+
+                    },
+                    "100%": {
+                        transform: "translateX(0%)",
+                        opacity: 1
+                    }
+                },
+                aosLtoR: {
+                    "0%": {
+                        transform: "translateX(100%)",
+                        opacity: 0
+
+
+                    },
+                    "100%": {
+                        transform: "translateX(0%)",
+                        opacity: 1
+
+                    }
                 }
             }
         },
+    },
+    variants: {
+        animation: ["motion-safe"]
     },
     plugins: [],
 }
