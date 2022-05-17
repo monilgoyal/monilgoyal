@@ -3,6 +3,11 @@
 ### I'm a Full Stack Developer, Freelancer, IT Engineer !!
 
 ---
+<img align="left" width="50%" alt="Monil's GitHub Stats" src="https://github-readme-stats-eight-theta.vercel.app/api?username=monilgoyal&show_icons=true&hide_border=true&title_color=6366f1&icon_color=6366f1&bg_color=111827&text_color=ffffff&border_color=0c1a25" />
+<img  width="40%" alt="Monil's GitHub Stats" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=monilgoyal&layout=compact&langs_count=6&hide_border=true&title_color=6366f1&icon_color=6366f1&bg_color=111827&text_color=ffffff&border_color=0c1a25" />
+
+
+---
 
 ### Connect with me:
 
@@ -56,9 +61,7 @@ Technologies I've been learning and using so far :
 <br />
 <br />
 
----
-<img align="left" width="50%" alt="Monil's GitHub Stats" src="https://github-readme-stats-eight-theta.vercel.app/api?username=monilgoyal&show_icons=true&hide_border=true&title_color=6366f1&icon_color=6366f1&bg_color=111827&text_color=ffffff&border_color=0c1a25" />
-<img  width="40%" alt="Monil's GitHub Stats" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=monilgoyal&layout=compact&langs_count=6&hide_border=true&title_color=6366f1&icon_color=6366f1&bg_color=111827&text_color=ffffff&border_color=0c1a25" />
+
 
 <!-- <details>
   <summary>GitHub Stats</summary>
