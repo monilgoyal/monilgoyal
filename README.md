@@ -1,34 +1,68 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hi there, I'm [<span style="color:#6366f1">Monil Goyal</span>][website] 👋 
 
-## Getting Started
+### I'm a Full Stack Developer, Freelancer, IT Engineer !!
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+### Connect with me:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[![website](./public/svg/connect/medium.svg)][medium]&nbsp;&nbsp;[![website](./public/svg/connect/insta.svg)][instagram]&nbsp;&nbsp;[![website](./public/svg/connect/linkedin.svg)][linkedin]&nbsp;&nbsp;[![website](./public/svg/connect/mail.svg)][mail]&nbsp;&nbsp;[![website](./public/svg/connect/web.svg)][website]
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Technologies I've been learning and using so far :
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Programming languages : <br />
+    [![JavaScript](https://img.shields.io/badge/-JavaScript-eee?style=flat-square&logo=javascript&logoColor=DD9C25)][website]
+    [![TypeScript](http://img.shields.io/badge/-TypeScript-eee?style=flat-square&logo=typescript&logoColor=3178C6)][website]
+    [![PHP](http://img.shields.io/badge/-PHP-eee?style=flat-square&logo=php&logoColor=4951aa)][website]
+    [![Python](http://img.shields.io/badge/-Python-eee?style=flat-square&logo=python&logoColor=F7BD2F)][website]
+- Frontend : <br />
+    [![React.js](http://img.shields.io/badge/-React-eee?style=flat-square&logo=react)][website]
+    [![Next.js](http://img.shields.io/badge/-Next.js-eee?style=flat-square&logo=next.js&logoColor=black)][website]
+    [![Redux](https://img.shields.io/badge/-Redux-eee?style=flat-square&logo=redux&logoColor=563D7C)][website]
+    [![Tailwindcss](https://img.shields.io/badge/-TailwindCSS-eee?style=flat-square&logo=tailwindcss)][website]
+    [![Bootstrap](http://img.shields.io/badge/-Bootstrap-eee?style=flat-square&logo=bootstrap)][website]
+    [![HTML5](http://img.shields.io/badge/-HTML5-eee?style=flat-square&logo=html5)][website]
+    [![CSS3](https://img.shields.io/badge/-CSS3-eee?style=flat-square&logo=css3&logoColor=2A62EA)][website]
+    [![Sass](https://img.shields.io/badge/-SASS-eee?style=flat-square&logo=sass)][website]
+- Backend : <br />
+    [![NodeJS](https://img.shields.io/badge/-NodeJS-eee?style=flat-square&logo=node.js&logoColor=339933)][website]
+    [![ExpressJS](https://img.shields.io/badge/-ExpressJS-eee?style=flat-square&logo=express&logoColor=000)][website]
+    [![Flask](http://img.shields.io/badge/-Flask-eee?style=flat-square&logo=flask&logoColor=000)][website]
+- OS & IDE & Tools : <br />
+    [![Git](http://img.shields.io/badge/-Git-eee?style=flat-square&logo=git&logoColor=F05032)][website]
+    [![GitKraken](http://img.shields.io/badge/-GitKraken-eee?style=flat-square&logo=gitkraken&logoColor=179287)][website]
+    [![GNU Bash](http://img.shields.io/badge/-GNU%20Bash-eee?style=flat-square&logo=gnu-bash&logoColor=663399)][website]
+    [![Linux](http://img.shields.io/badge/-Linux-eee?style=flat-square&logo=linux&logoColor=D67A10)][website]
+    [![Postman](http://img.shields.io/badge/-Postman-eee?style=flat-square&logo=postman&logoColor=FF6C37)][website]
+    [![VS Code](http://img.shields.io/badge/-VS%20Code-eee?style=flat-square&logo=visual-studio-code&logoColor=007ACC)][website]
+    [![Jupyter Notebook](https://img.shields.io/badge/-Jupyter-eee?style=flat-square&logo=jupyter&logoColor=F37626)][website]
+- Devops & Tools: <br />
+   [![Docker](https://img.shields.io/badge/-Docker-eee?style=flat-square&logo=docker&logoColor=2496ed)][website]
+   [![Kubernetes](https://img.shields.io/badge/-Kubernetes-eee?style=flat-square&logo=kubernetes)][website]
+   [![Ansible](https://img.shields.io/badge/-Ansible-eee?style=flat-square&logo=ansible&logoColor=000)][website]
+   [![Jenkins](https://img.shields.io/badge/-Jenkins-eee?style=flat-square&logo=jenkins&logoColor=000)][website]
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Cloud Plateform : <br />
+    [![Google Cloud](https://img.shields.io/badge/-Google%20Cloud-eee?style=flat-square&logo=google-cloud&logoColor=4285F4)][website]
+    [![AWS](https://img.shields.io/badge/-aws-eee?style=flat-square&logo=amazon-aws&logoColor=232F3E)][website]
+    [![Heroku](https://img.shields.io/badge/-Heroku-eee?style=flat-square&logo=heroku&logoColor=430098)][website]
+- Database : <br />
+    [![MongoDB](https://img.shields.io/badge/-MongoDB-eee?style=flat-square&logo=mongodb&logoColor=47A248)][website]
+    [![MySQL](http://img.shields.io/badge/-MySQL-eee?style=flat-square&logo=mysql&logoColor=4479A1)][website]
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+<br />
+<br />
 
-## Deploy on Vercel
+---
+ <img align="left" height="200" alt="Monil's GitHub Stats" src="https://github-readme-stats-eight-theta.vercel.app/api?username=monilgoyal&show_icons=true&hide_border=true&title_color=6366f1&icon_color=6366f1&bg_color=111827&text_color=ffffff&border_color=0c1a25" />
+ <img align="left" height="200" alt="Monil's GitHub Stats" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=monilgoyal&layout=compact&langs_count=6&hide_border=true&title_color=6366f1&icon_color=6366f1&bg_color=111827&text_color=ffffff&border_color=0c1a25" />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[website]: https://monilgoyal.vercel.app
+[instagram]: https://instagram.com/monilgoyal
+[linkedin]: https://linkedin.com/in/monilgoyal
+[medium]: https://monilgoyal.medium.com
+[mail]: mailto:contact@monilgoyal.me
