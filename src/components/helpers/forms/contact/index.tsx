@@ -204,7 +204,6 @@ function ContactForm() {
                 setFirstReq(true)
                 if (file) {
                     cancelSource.current = CancelToken.source()
-                    console.log(resp.data)
                     axios.put(
                         resp.data.body.message, file, {
                         cancelToken: cancelSource.current.token,
