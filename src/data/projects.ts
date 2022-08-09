@@ -7,10 +7,10 @@ export const projects_data = [
         "tech": "Next.js, React DOM, Redux, TailwindCSS, TypeScript ",
         "videoUrl": "",
         "blogUrl": "",
-        "liveUrl": "https://monilgoyal.com",
-        "githubUrl": "https://github.com/monilgoyal/portfolio",
+        "liveUrl": "https://monilgoyal.me",
+        "githubUrl": "https://github.com/monilgoyal/monilgoyal",
         "thumbUrl": "https://cdn.dorik.com/615479743eb7a900117254b8/615479ba3eb7a900117254b9/images/Portfolio-Update-pana-(1)_d9xfv4kc.svg",
-        "date": "Apr 2022"
+        "date": "Aug 2022"
     },
     {
         "id": 1,
