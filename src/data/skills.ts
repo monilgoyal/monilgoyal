@@ -60,7 +60,7 @@ export const FrontendProfile = [{
 }
 ]
 
-export const FrontendSkills = [{
+export const BackendSkills = [{
     "id": 0,
     "name": "Node.js",
     "logo": "/svg/skills/nodejs.svg",
@@ -80,18 +80,18 @@ export const ProgLang = [{
     "logo": "/svg/skills/python.svg",
     "level": "Intermediate"
 },
-{
-    "id": 1,
-    "name": "C",
-    "logo": "/svg/skills/c.svg",
-    "level": "Intermediate"
-},
-{
-    "id": 2,
-    "name": "PHP",
-    "logo": "/svg/skills/php.svg",
-    "level": "Entry"
-}
+    // {
+    //     "id": 1,
+    //     "name": "C",
+    //     "logo": "/svg/skills/c.svg",
+    //     "level": "Intermediate"
+    // },
+    // {
+    //     "id": 2,
+    //     "name": "PHP",
+    //     "logo": "/svg/skills/php.svg",
+    //     "level": "Entry"
+    // }
 ]
 
 export const PyTools = [{
@@ -107,12 +107,12 @@ export const PyTools = [{
     "logo": "/svg/skills/opencv.svg",
     "level": "Intermediate"
 },
-{
-    "id": 2,
-    "name": "Selenium",
-    "logo": "/svg/skills/selenium.svg",
-    "level": "Intermediate"
-}
+    // {
+    //     "id": 2,
+    //     "name": "Selenium",
+    //     "logo": "/svg/skills/selenium.svg",
+    //     "level": "Intermediate"
+    // }
 ]
 
 export const UnixSys = [{
@@ -142,33 +142,34 @@ export const DevopsTools = [{
     "logo": "/svg/skills/docker.svg",
     "level": "Intermediate"
 },
-{
-    "id": 1,
-    "name": "Kubernetes",
-    "logo": "/svg/skills/kubernetes.svg",
-    "level": "Entry"
-}
+    // {
+    //     "id": 1,
+    //     "name": "Kubernetes",
+    //     "logo": "/svg/skills/kubernetes.svg",
+    //     "level": "Entry"
+    // }
 
 ]
-export const AutomationTools = [{
+export const AutomationTools = [
+    //     {
 
-    "id": 0,
-    "name": "Ansible",
-    "logo": "/svg/skills/ansible.svg",
-    "level": "Intermediate"
-},
-{
-    "id": 1,
-    "name": "Jenkins",
-    "logo": "/svg/skills/jenkins.svg",
-    "level": "Entry"
-},
-{
-    "id": 2,
-    "name": "Git",
-    "logo": "/svg/skills/git.svg",
-    "level": "Intermediate"
-}
+    //     "id": 0,
+    //     "name": "Ansible",
+    //     "logo": "/svg/skills/ansible.svg",
+    //     "level": "Intermediate"
+    // },
+    // {
+    //     "id": 1,
+    //     "name": "Jenkins",
+    //     "logo": "/svg/skills/jenkins.svg",
+    //     "level": "Entry"
+    // },
+    {
+        "id": 2,
+        "name": "Git",
+        "logo": "/svg/skills/git.svg",
+        "level": "Intermediate"
+    }
 ]
 export const CloudServices = [{
 
@@ -183,12 +184,12 @@ export const CloudServices = [{
     "logo": "/svg/skills/gcp.svg",
     "level": "Entry"
 },
-{
-    "id": 2,
-    "name": "AZURE",
-    "logo": "/svg/skills/azure.svg",
-    "level": "Entry"
-}
+    // {
+    //     "id": 2,
+    //     "name": "AZURE",
+    //     "logo": "/svg/skills/azure.svg",
+    //     "level": "Entry"
+    // }
 ]
 export const Databases = [{
 

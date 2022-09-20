@@ -2,9 +2,9 @@ export const projects_data = [
     {
         "id": 0,
         "title": "Portfolio Website",
-        "desc": "One page personal Portfolio website",
+        "desc": "Designed single-page web application using NextJS and Tailwind CSS to provide my professional information. Deployed frontend on vercel and backend on AWS lambda and stored object files in S3 using presigned URL. Enabled email automation using Google App script triggers and stored contact info with the Google Sheet API.",
         "description": "Portfolio App",
-        "tech": "Next.js, React DOM, Redux, TailwindCSS, TypeScript ",
+        "tech": "Next.js, React DOM, Redux, TailwindCSS, TypeScript, AWS lambda, AWS S3, Google API, Google App Script ",
         "videoUrl": "",
         "blogUrl": "",
         "liveUrl": "https://monilgoyal.me",
@@ -14,32 +14,6 @@ export const projects_data = [
     },
     {
         "id": 1,
-        "title": "Kubernetes Chat Bot",
-        "desc": "Developed interactive web chat app supported with natural language processing that works on 15+ operations of three K8s resources - Namespace, Pod, Deployment.",
-        "description": "Chat Bot to interact with Kubernetes Resources",
-        "tech": "NLP, Kubernetes, Python API, Flask, Html & CSS, JavaScript/ JQuery, Ajax",
-        "videoUrl": "https://cutt.ly/kube-chatbot",
-        "blogUrl": "",
-        "liveUrl": "",
-        "githubUrl": "https://github.com/monilgoyal/Gmenu/tree/kubernetes",
-        "thumbUrl": "https://cdn.dorik.com/615479743eb7a900117254b8/615479ba3eb7a900117254b9/images/Chatbot_rxmetqbd.svg",
-        "date": "Aug 2021"
-    },
-    {
-        "id": 2,
-        "title": "Docker Web App",
-        "desc": "Built Docker Web App using Flask Framework and REST APIs that has seamless integration of 10+ features.",
-        "description": "Features Included - create, delete, start, stop, commit, remove, inspect, rename containers and pull, delete, inspect",
-        "tech": "Flask, Python, Html, CSS, Javascript, Api, Docker CLI",
-        "videoUrl": "https://cutt.ly/docker-webapp",
-        "blogUrl": "",
-        "liveUrl": "",
-        "githubUrl": "https://github.com/monilgoyal/Gmenu",
-        "thumbUrl": "https://cdn.dorik.com/615479743eb7a900117254b8/615479ba3eb7a900117254b9/images/Cloud_aggnce4l.svg",
-        "date": "Jul 2021"
-    },
-    {
-        "id": 3,
         "title": "Vahan Checker Application",
         "desc": "Implemented ANPR on Web App that will process the car image to extract registration number from license plate of car and fetch the details of owner and car with help of regcheck API.",
         "description": "",
@@ -51,21 +25,9 @@ export const projects_data = [
         "thumbUrl": "https://cdn.dorik.com/615479743eb7a900117254b8/615479ba3eb7a900117254b9/images/vahanchecker_rlhrls37.svg",
         "date": "Aug 2021"
     },
+
     {
-        "id": 4,
-        "title": "Live Streaming Video Chat App",
-        "desc": "Programmed live streaming video chat app using socket programming.\nLive video assistant.",
-        "description": "",
-        "tech": "Python, OpenCV, Socket Programming",
-        "videoUrl": "https://cutt.ly/livestreaming-vc",
-        "blogUrl": "",
-        "liveUrl": "",
-        "githubUrl": "https://github.com/monilgoyal/live-streaming-opencv",
-        "thumbUrl": "https://cdn.dorik.com/615479743eb7a900117254b8/615479ba3eb7a900117254b9/images/Video_9qmlbzwl.svg",
-        "date": "Jun 2021"
-    },
-    {
-        "id": 5,
+        "id": 2,
         "title": "Multi-label Face Recognizer",
         "desc": "Trained multi-label face recognizer model using Local Binary Pattern Histogram(LBPH) algorithm having more than 85% accuracy and launch infrastructure using terraform on successful detection of user.",
         "description": "",
@@ -78,7 +40,7 @@ export const projects_data = [
         "date": "Jun 2021"
     },
     {
-        "id": 6,
+        "id": 3,
         "title": "Automating LVM Partition",
         "desc": "Automated LVM partition using python script in Linux system. This app seamlessly retrieves all the valid resources and operations to perform on them.",
         "description": "",
@@ -89,6 +51,45 @@ export const projects_data = [
         "githubUrl": "https://github.com/monilgoyal/lvm_python_automation",
         "thumbUrl": "https://cdn.dorik.com/615479743eb7a900117254b8/615479ba3eb7a900117254b9/images/lvm_3xfy2gml.svg",
         "date": "Apr 2021"
+    },
+    {
+        "id": 4,
+        "title": "Kubernetes Chat Bot",
+        "desc": "Developed interactive web chat app supported with natural language processing that works on 15+ operations of three K8s resources - Namespace, Pod, Deployment.",
+        "description": "Chat Bot to interact with Kubernetes Resources",
+        "tech": "NLP, Kubernetes, Python API, Flask, Html & CSS, JavaScript/ JQuery, Ajax",
+        "videoUrl": "https://cutt.ly/kube-chatbot",
+        "blogUrl": "",
+        "liveUrl": "",
+        "githubUrl": "https://github.com/monilgoyal/Gmenu/tree/kubernetes",
+        "thumbUrl": "https://cdn.dorik.com/615479743eb7a900117254b8/615479ba3eb7a900117254b9/images/Chatbot_rxmetqbd.svg",
+        "date": "Aug 2021"
+    },
+    {
+        "id": 5,
+        "title": "Docker Web App",
+        "desc": "Built Docker Web App using Flask Framework and REST APIs that has seamless integration of 10+ features.",
+        "description": "Features Included - create, delete, start, stop, commit, remove, inspect, rename containers and pull, delete, inspect",
+        "tech": "Flask, Python, Html, CSS, Javascript, Api, Docker CLI",
+        "videoUrl": "https://cutt.ly/docker-webapp",
+        "blogUrl": "",
+        "liveUrl": "",
+        "githubUrl": "https://github.com/monilgoyal/Gmenu",
+        "thumbUrl": "https://cdn.dorik.com/615479743eb7a900117254b8/615479ba3eb7a900117254b9/images/Cloud_aggnce4l.svg",
+        "date": "Jul 2021"
+    },
+    {
+        "id": 6,
+        "title": "Live Streaming Video Chat App",
+        "desc": "Programmed live streaming video chat app using socket programming.\nLive video assistant.",
+        "description": "",
+        "tech": "Python, OpenCV, Socket Programming",
+        "videoUrl": "https://cutt.ly/livestreaming-vc",
+        "blogUrl": "",
+        "liveUrl": "",
+        "githubUrl": "https://github.com/monilgoyal/live-streaming-opencv",
+        "thumbUrl": "https://cdn.dorik.com/615479743eb7a900117254b8/615479ba3eb7a900117254b9/images/Video_9qmlbzwl.svg",
+        "date": "Jun 2021"
     },
     {
         "id": 7,

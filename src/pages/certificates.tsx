@@ -5,7 +5,7 @@ import Header from '../components/header'
 import Navbar from '../components/navbar'
 import { Certificates } from '../data/certificates'
 import { useEffect } from 'react'
-Certificates.sort((a, b) => (a.id < b.id) ? 1 : -1)
+// Certificates.sort((a, b) => (a.id < b.id) ? 1 : -1)
 
 function Certificate() {
     useEffect(() => {
@@ -96,7 +96,8 @@ function Certificate() {
                                 <div className='w-full md:w-4/5 lg:w-3/5 self-center lg:self-start flex flex-col'>
                                     <div className='text-xl font-semibold'>{certificate.title}</div>
                                     <div className="py-[calc(2px)] my-2 rounded-xl bg-indigo-500 w-24 self-center lg:self-start"></div>
-                                    <div className='text-sm font-bold '>22<sup>nd</sup> May, 2021 - 17<sup>th</sup> Aug, 2021</div>
+                                    <div className='text-sm font-bold '>{ }</div>
+                                    <div className='text-sm font-bold ' dangerouslySetInnerHTML={{ __html: certificate.date }}></div>
                                 </div>
                             </div>
                         </div> : <div className="flex flex-col lg:flex-row-reverse relative w-full mx-auto overflow-x-hidden text-gray-900 dark:text-gray-400" key={certificate.id} >
@@ -117,7 +118,7 @@ function Certificate() {
                                 <div className='w-full md:w-4/5 lg:w-3/5 self-center lg:self-end flex flex-col'>
                                     <div className='text-xl font-semibold'>{certificate.title}</div>
                                     <div className="py-[calc(2px)] my-2 rounded-xl bg-indigo-500 w-24 self-center lg:self-end"></div>
-                                    <div className='text-sm font-bold '>22<sup>nd</sup> May, 2021 - 17<sup>th</sup> Aug, 2021</div>
+                                    <div className='text-sm font-bold ' dangerouslySetInnerHTML={{ __html: certificate.date }}></div>
                                 </div>
                             </div>
                         </div>

@@ -3,7 +3,7 @@ import { Certificates } from '../../../data/certificates'
 import Image from 'next/image'
 import { ViewAllButton } from '../../helpers/button/viewall'
 import Link from 'next/link'
-Certificates.sort((a, b) => (a.id < b.id) ? 1 : -1)
+// Certificates.sort((a, b) => (a.id < b.id) ? 1 : -1)
 const Certificate = () => {
     useEffect(() => {
         if (window.screen.availWidth > 1280)
